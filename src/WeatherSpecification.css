@@ -1,0 +1,11 @@
+.displayed-weather-specification li {
+  list-style: none;
+}
+.displayed-weather-specification ul {
+  padding-left: 0;
+}
+.displayed-weather-specification {
+  font-weight: 300;
+  font-size: 13px;
+  opacity: 0.8;
+}

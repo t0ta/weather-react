@@ -1,0 +1,42 @@
+.Forecast {
+  margin-left: 30px;
+}
+.weather-forecast-card {
+  background: #bde4f4;
+  border: 0;
+  font-size: 15px;
+  line-height: 22px;
+  margin: 0 10px;
+  padding: 5px 20px 10px 20px;
+  text-align: center;
+  transition: 300ms ease-in-out;
+}
+.card:hover {
+  opacity: 0.8;
+}
+.weather-forecast-weekday {
+  font-style: none;
+  line-height: 15px;
+  margin-top: 10px;
+}
+.weather-forecast-date {
+  font-weight: 200;
+  font-size: 13px;
+}
+.weather-forecast-icon {
+  margin: 0 auto;
+  width: 60px;
+}
+.weather-forecast-temp-max {
+  font-weight: 500;
+  font-style: none;
+  line-height: 15px;
+  margin-top: 10px;
+  padding: 0 5px;
+}
+.weather-forecast-temp-min {
+  font-style: none;
+  line-height: 15px;
+  margin-top: 10px;
+  opacity: 0.8;
+}

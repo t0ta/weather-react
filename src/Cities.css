@@ -1,0 +1,19 @@
+.Cities li {
+  display: inline;
+  font-size: 15px;
+  font-weight: 200;
+  list-style: none;
+  padding-right: 20px;
+}
+.Cities {
+  padding-left: 0;
+}
+.city {
+  color: #404969;
+  cursor: default;
+  text-decoration: none;
+}
+.city:hover {
+  color: #404969;
+  font-weight: 300;
+}
