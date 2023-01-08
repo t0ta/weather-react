@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="Footer">
       This App was coded by t0ta,
       <a
-        href="https://github.com/t0ta/weather-app"
+        href="https://github.com/t0ta/weather-react"
         target="_blank"
         rel="noreferrer"
       >
@@ -14,7 +14,7 @@ export default function Footer() {
       </a>
       and
       <a
-        href="https://unrivaled-semifreddo-61e271.netlify.app"
+        href="https://willowy-melba-ac6d6f.netlify.app/"
         target="_blank"
         rel="noreferrer"
       >
