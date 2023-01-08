@@ -1,5 +1,9 @@
 import React from "react";
 import "./WeatherSpecification.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDroplet } from "@fortawesome/free-solid-svg-icons";
+import { faTemperatureHalf } from "@fortawesome/free-solid-svg-icons";
+import { faWind } from "@fortawesome/free-solid-svg-icons";
 
 export default function WeatherSpecification(props) {
   return (
@@ -9,8 +13,7 @@ export default function WeatherSpecification(props) {
         <div className="col-2 displayed-weather-specification">
           <ul>
             <li>
-              <i className="fa-solid fa-droplet"></i>
-              Humidity
+              <FontAwesomeIcon icon={faDroplet} /> Humidity
               <div>{props.humidity}%</div>
             </li>
           </ul>
@@ -18,8 +21,7 @@ export default function WeatherSpecification(props) {
         <div className="col-2 displayed-weather-specification">
           <ul>
             <li>
-              <i className="fa-solid fa-temperature-half"></i>
-              Feles like
+              <FontAwesomeIcon icon={faTemperatureHalf} /> Feles like
               <div>{props.feelsLike}°C</div>
             </li>
           </ul>
@@ -27,7 +29,7 @@ export default function WeatherSpecification(props) {
         <div className="col-2 displayed-weather-specification">
           <ul>
             <li>
-              <i className="fa-solid fa-wind"></i> Wind
+              <FontAwesomeIcon icon={faWind} /> Wind
               <div>{props.wind} kmh</div>
             </li>
           </ul>
